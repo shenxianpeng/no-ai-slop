@@ -16,13 +16,13 @@ The full catalog is in [SKILL.md](SKILL.md). A sample:
 6. Triplet addiction: everything in threes for no reason.
 7. Em dash abuse, banned words (delve, seamless, tapestry, ever-evolving), throat-clearing openers, summary-recap endings, and more.
 
-It also enforces the boring fundamentals that make writing good: front-load the point, active voice, one idea per sentence, concrete numbers over abstractions.
+It also enforces the boring fundamentals that make writing good: Front-load the point, active voice, one idea per sentence, concrete numbers over abstractions.
 
 ## What it protects
 
 1. Your meaning. It never invents claims, stats, or opinions. If something is unclear, it asks.
 2. Your specifics. "Cut review time from 30 minutes to 8" never gets smoothed into "significantly improves productivity."
-3. Your edge. Strong opinions get sharper, not sanded down to sound balanced.
+3. Your edge. Strong opinions get sharper. The skill never sands them down to sound balanced.
 
 ## Install
 
@@ -66,9 +66,9 @@ To flag issues without rewriting:
 
 ## Files
 
-1. `SKILL.md`: the editing rules and workflow. The whole skill.
-2. `eval.md`: pass/fail checks the skill runs on its own edits.
-3. `agents/openai.yaml`: metadata so the skill shows up in app UIs.
+1. `SKILL.md`: The editing rules and workflow. The whole skill.
+2. `eval.md`: Pass/fail checks the skill runs on its own edits.
+3. `agents/openai.yaml`: Metadata so the skill shows up in app UIs.
 
 ## Who made this
 

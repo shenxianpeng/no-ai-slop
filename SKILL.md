@@ -69,7 +69,7 @@ Filler phrases: it's worth noting, it's important to note, at the end of the day
 
 **Audience flattery.** "Whether you're a solo founder or a Fortune 500 exec," "for beginners and experts alike." Name the actual reader once or cut it. The piece should already show who it's for.
 
-**Both-sides hedging.** "While X offers benefits, challenges remain." "It's a powerful tool, but it's not without drawbacks." Take a side or state the actual tradeoff with specifics. "AI coding tools are powerful but have limitations" becomes "Codex writes the first 80% fast; the last 20% still needs you to review every line."
+**Both-sides hedging.** "While X offers benefits, challenges remain." "It's a powerful tool, but it's not without drawbacks." Take a side or state the actual tradeoff with specifics. "AI coding tools are powerful but have limitations" becomes "Codex writes the first 80% fast. The last 20% still needs you to review every line."
 
 **Rhetorical setups.** "What if I told you...", "Think about it:", "Plot twist:", and self-answered "Question? Answer." pairs. Drop them and make the point.
 
