@@ -2,7 +2,7 @@
 
 Use this after the rewrite. Answer each check with pass or fail. If any check fails, fix the draft before returning it.
 
-For audit-only requests, make sure the response flags issues without rewriting the draft.
+For detect requests, make sure the response names each pattern found with a quoted line and a short fix, without rewriting the draft.
 
 ## Editing principles
 
@@ -27,13 +27,13 @@ For audit-only requests, make sure the response flags issues without rewriting t
 5. Are vague content-marketing metaphors replaced with concrete actions, systems, places, or results?
 6. Are fake-profound kicker lines deleted instead of rewritten into better metaphors?
 7. Are summary-recap endings cut so the piece ends on a concrete point, takeaway, or next action?
-8. Is formatting slop removed: emoji headings, decorative bold, bullets that should be prose, headers over tiny sections?
+8. Is formatting slop removed: Emoji headings, decorative bold, bullets that should be prose, headers over tiny sections?
 9. Are colons sentence case unless grammar, a proper noun, a title, or code requires otherwise?
-10. Are em dashes used sparingly: usually none in short copy, and only 1-2 in longer drafts when they clearly help?
+10. Are em dashes used sparingly: Usually none in short copy, and only 1-2 in longer drafts when they clearly help?
 
 ## Final read
 
 1. Does the draft avoid robotic symmetry, repeated sentence shapes, and stacked punchy fragments?
 2. Would the edited draft sound natural if read to a sharp colleague?
 3. Does the final output include the full edited draft and a short **What changed** section?
-4. For audit-only requests, does the response flag issues without rewriting the draft?
+4. For detect requests, does the response name each pattern with a quoted line and a short fix, without rewriting, scoring, or claiming AI authorship?

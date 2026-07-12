@@ -1,4 +1,4 @@
 interface:
   display_name: "/no-ai-slop"
-  short_description: "Make drafts clearer and more human."
+  short_description: "Edit drafts to be clearer and more human, or detect AI-slop patterns."
   default_prompt: "Use $no-ai-slop to make this draft sharper, clearer, and less AI-sounding."

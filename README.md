@@ -1,8 +1,8 @@
 # No AI slop
 
-An agent skill that edits drafts into sharper, more human writing. It keeps your point, cuts the patterns that make writing smell like AI, and protects the specific facts that make a draft worth reading.
+An agent skill that edits drafts into sharper, more human writing. It keeps your point, cuts the patterns that make writing smell like AI, and protects the specific facts that make a draft worth reading. It can also detect those patterns in any piece without rewriting it.
 
-I write a newsletter read by 150,000 people and run every draft through this skill before it ships. It exists because AI first drafts all sound the same: hedged, padded, and structured like a press release. This skill is the editor that fixes that.
+I write a newsletter read by 150,000 people and run every draft through this skill before it ships. It exists because AI first drafts all sound the same: Hedged, padded, and structured like a press release. This skill is the editor that fixes that.
 
 ## What it catches
 
@@ -62,11 +62,13 @@ Codex:
 git clone https://github.com/petergyang/no-ai-slop.git ~/.codex/skills/no-ai-slop
 ```
 
-Any other agent: point it at `SKILL.md`. The rules work as a system prompt for any model.
+Any other agent: Point it at `SKILL.md`. The rules work as a system prompt for any model.
 
 ## Use
 
-Paste a draft and invoke the skill:
+The skill has two jobs. Editing is the main one.
+
+**1. Edit a draft.** Paste it and invoke the skill:
 
 ```
 /no-ai-slop
@@ -76,11 +78,15 @@ Paste a draft and invoke the skill:
 
 You get back the edited draft plus a short What changed section. The skill runs an editor pass, then checks its own work against [eval.md](eval.md) before returning anything.
 
-To flag issues without rewriting:
+**2. Detect slop.** Ask whether a piece reads as AI:
 
 ```
-/no-ai-slop audit this draft
+/no-ai-slop is this AI slop?
+
+[the text]
 ```
+
+You get every pattern it found, each with the quoted line and a suggested fix. It doesn't rewrite, score the draft, or guess whether AI wrote it. AI detectors guess. Named patterns are evidence you can check yourself.
 
 ## Files
 
