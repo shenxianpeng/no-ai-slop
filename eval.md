@@ -1,42 +1,42 @@
-# No AI slop eval
+# 去 AI 味 评估清单
 
-Use this after the rewrite. Answer each check with pass or fail. If any check fails, fix the draft before returning it.
+改写完成后使用。逐条回答通过或不通过。如果任何一条不通过，先修复草稿再返回。
 
-For detect requests, make sure the response names each pattern found with a quoted line and a short fix, without rewriting the draft.
+对于检测请求，确保回复列出了每个找到的模式，附带引用原文和简短修改建议，不改写草稿。
 
-## Editing principles
+## 编辑原则
 
-1. Does the edit preserve the user's point without adding claims, examples, stats, quotes, or opinions?
-2. Does it preserve the writer's distinctive vocabulary, cadence, bluntness, humor, uncertainty, digressions, and level of polish?
-3. Does it leave strong human sentences alone instead of rewriting them for consistency or making every paragraph equally tidy?
-4. Is the amount of cutting proportional to the actual slop, with no aggressive compression that strips out character?
-5. Does the draft lead with what the reader needs while keeping personal setup that adds context, tension, or character?
-6. Are points front-loaded where that improves clarity without forcing every unit into the same structure?
-7. Do sentences earn their place, with concrete facts, protected details, and direct verbs where the draft supports them?
-8. Does the draft use active voice with human subjects where possible?
-9. Does the edit keep useful edge and preserve structure unless the structure was hurting the piece?
-10. Are genuinely tangled sentences fixed while clear spoken cadence, fragments, and changes in pace remain intact?
+1. 编辑是否保留了用户的观点，没有添加主张、例子、数据、引用或观点？
+2. 是否保留了作者独特的用词、节奏、直率程度、幽默感、不确定性、跑题方式和精细程度？
+3. 是否让好的人写的句子保持原样，而不是为了一致性而改写或让每段都一样整齐？
+4. 删改程度是否与实际的套话量成正比，没有过度压缩以至于去掉了个性？
+5. 草稿是否以读者需要的信息开头，同时保留了能增加语境、张力或个性的个人铺垫？
+6. 是否只在有助于清晰时才前置结论，而没有强迫每个单元都是同一结构？
+7. 每句话是否都有存在理由，在草稿支持的情况下使用了具体事实、保护了细节、用了直接动词？
+8. 草稿是否在可能的情况下使用了主动语态和人作主语？
+9. 编辑是否保留了有用的锋芒，除非结构在伤害文章否则保留了原有结构？
+10. 是否修复了真正难懂的句子，同时保留了清晰的口语化节奏、碎片句和节奏变化？
 
-## Words to cut
+## 要删的词
 
-1. Are banned words, filler phrases, often-empty adverbs, and inflated claims removed unless quoted as examples?
+1. 禁用词、空洞短语、常见空洞副词和夸大主张是否已删除（作为示例引用时除外）？
 
-## Patterns to cut
+## 要删的模式
 
-1. Are binary contrasts, negative listings, rhetorical setups, and throat-clearing openers removed?
-2. Are faux-insight setups, colon reveals, superficial analysis, fake-strong verbs, synonym cycling, dramatic fragments, and robotic rhythm fixed?
-3. Are importance puffery and weasel attribution replaced with plain facts and named sources, or flagged for the user when no source exists?
-4. Are fake-profound kicker lines deleted instead of rewritten into better metaphors?
-5. Are summary-recap endings cut so the piece ends on a concrete point, takeaway, or next action?
-6. Is formatting slop removed: Emoji headings, decorative bold, bullets that should be prose, headers over tiny sections?
-7. Are colons sentence case unless grammar, a proper noun, a title, or code requires otherwise?
-8. Are em dashes used sparingly: Usually none in short copy, and only 1-2 in longer drafts when they clearly help?
+1. 二元对立、否定列举、反问铺垫和废话开头是否已删除？
+2. 伪洞察铺垫、冒号揭示、表面分析、虚假强动词、同义词轮换、戏剧化碎片和机械节奏是否已修复？
+3. 重要性吹捧和模糊引用是否已替换为朴素事实和具名来源，或者在没有来源时向用户标记？
+4. 伪深刻结尾是否被删除而不是改写成更好的比喻？
+5. 总结性重复结尾是否已删除，让文章以具体观点、要点或下一步行动结尾？
+6. 格式套话是否已清理：表情符号标题、装饰性加粗、应该用散文的列表、内容很少的小标题？
+7. 冒号后是否用了小写（除非语法、专有名词、标题或代码要求大写）？
+8. 破折号是否用得克制：短文中通常不用，长文中只在明显有帮助时用1-2个？
 
-## Final read
+## 最终通读
 
-1. Was the edit checked directly against this file without requiring separate editor and evaluator agents?
-2. Does the draft avoid robotic symmetry, repeated sentence shapes, and stacked punchy fragments?
-3. Would the writer recognize the edited draft as their own voice?
-4. Would the edited draft sound natural if read to a sharp colleague?
-5. Does the final output include the full edited draft and a short **What changed** section?
-6. For detect requests, does the response name each pattern with a quoted line and a short fix, without rewriting, scoring, or claiming AI authorship?
+1. 编辑是否直接对照了这个文件检查，而不需要单独的编辑器和评估器？
+2. 草稿是否避免了机械的对称性、重复的句式和堆叠的短句？
+3. 作者是否会认出编辑后的草稿是自己的声音？
+4. 如果读给一个敏锐的同事听，编辑后的草稿是否自然？
+5. 最终输出是否包含了完整的编辑后草稿和一个简短的**改了什么**部分？
+6. 对于检测请求，回复是否列出了每个模式并附带引用原文和简短修改建议，没有改写、打分或声称是 AI 写的？
