@@ -1,0 +1,19 @@
+README.md
+  s_25bf020bcf3943::t_37f8ec9e1054e0 5-14
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "bb025ad7b64d7eb380d850e801357d09e059e9c1",
+  "prompts": {},
+  "sessions": {
+    "s_25bf020bcf3943": {
+      "agent_id": {
+        "tool": "pi",
+        "id": "019f8ba3-4482-79f0-b0bc-292cbd42dbe6",
+        "model": "deepseek-v4-flash"
+      },
+      "human_author": "shenxianpeng <xianpeng.shen@gmail.com>"
+    }
+  }
+}
